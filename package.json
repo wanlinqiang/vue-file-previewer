@@ -1,0 +1,44 @@
+{
+  "name": "the-file-preview",
+  "version": "0.2.0",
+  "author": "MOONCOM",
+  "private": false,
+  "license": "ISC",
+  "main": "lib/file-preview.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build-npm": "vue-cli-service build --dest lib --target lib --name vue-file-previewer src/views/vueFilePreviewer.vue",
+    "build": "vue-cli-service build --dest demo",
+    "lint": "vue-cli-service lint",
+    "report": "vue-cli-service build --report"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "docx-preview": "^0.1.14",
+    "exceljs": "^4.3.0",
+    "jszip": "^3.10.1",
+    "pdfjs-dist": "^2.0.943",
+    "tinycolor2": "^1.6.0",
+    "vue": "^2.6.14",
+    "x-data-spreadsheet": "^1.1.9",
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less-loader": "^12.2.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "keywords": [
+    "preview",
+    "js",
+    "office",
+    "pdf",
+    "word",
+    "excel"
+  ]
+}
