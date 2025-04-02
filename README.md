@@ -1,4 +1,4 @@
-本项目是站在巨人的肩膀上开发的，巨人的项目 👉 [the-file-preview](https://github.com/MOONCOM/the-file-preview)
+本项目是站在巨人的肩膀上修改的，巨人的项目 👉 [the-file-preview](https://github.com/MOONCOM/the-file-preview)
 
 ## 安装
 ```
